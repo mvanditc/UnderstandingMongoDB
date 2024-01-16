@@ -24,26 +24,27 @@ class Database {
 
 module.exports = new Database();
 
-const userSchema = new mongoose.Schema({
-    name: String,
-    email: String,
-    age: Number,
-});
+// This code is for creating data in the database.
+// const userSchema = new mongoose.Schema({
+//     name: String,
+//     email: String,
+//     age: Number,
+// });
 
-const User = mongoose.model('User', userSchema);
-const newUser = new User({
-  name: 'Elena John',
-  email: 'elena.john@example.com',
-  age: 22,
-});
+// const User = mongoose.model('User', userSchema);
+// const newUser = new User({
+//   name: 'Elena John',
+//   email: 'elena.john@example.com',
+//   age: 22,
+// });
 
-newUser.save()
-.then(() => {
-  console.log('Save User at MongoDB');
-})
-.catch((error) => {
-  console.error(error);
-});
+// newUser.save()
+// .then(() => {
+//   console.log('Save User at MongoDB');
+// })
+// .catch((error) => {
+//   console.error(error);
+// });
 
 const bodyParser = require('body-parser');
 

@@ -1,0 +1,22 @@
+{
+    "0":{
+        "name": "John Doe",
+        "position": "Crew Member",
+        "hourlyRate": 14
+    },
+    "1":{
+        "name": "Jane Doe",
+        "position": "Crew Member",
+        "hourlyRate": 14
+    },
+    "2":{
+        "name": "Bob Bossy",
+        "position": "Crew Manager",
+        "hourlyRate": 22
+    },
+    "3":{
+        "name": "Neil Newson",
+        "position": "Trainee",
+        "hourlyRate": 14
+    }
+}
